@@ -14,4 +14,6 @@ int main() {
 
 	triple_strike = (hero1 % 3 == 0) && (hero2 % 3 == 0) && (hero3 % 3 == 0);
 	printf("Тройной удар был сделан(1 - да, 0 - нет): %d", triple_strike);
+	system("pause");
+
 }
